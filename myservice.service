@@ -1,0 +1,22 @@
+## Creating the file .service
+## Replace myservice with the service name
+## nano /lib/systemd/system/myservice.service
+
+[Unit]
+Description=My Script Service
+After=multi-user.target
+
+[Service]
+Type=idle
+Restart=on-failure
+RestartSec=5s
+
+ExecStart=/usr/bin/python3 /root/myservice.py
+
+[Install]
+WantedBy=multi-user.target
+
+## Command for enable service, start e stop
+## sudo systemctl start myservice      # Start 
+## sudo systemctl stop myservice       # Stop
+## sudo systemctl enable myservice     # Enable in start
