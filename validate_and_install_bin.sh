@@ -24,11 +24,10 @@ OS_RELEASE(){
 # Function that validates the binary installation
 VALIDATE_INSTALL_BIN() {
   if [ -z $(which $1) ] ; then
-      echo "Installing $1"
+      echo "Installing binary $1"
       OS_RELEASE $1
   else
-      echo "Binary install"
-      echo $1
+      echo "$1 binary already installed"
   fi
 }
 
