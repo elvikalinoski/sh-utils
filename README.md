@@ -11,3 +11,7 @@ sudo netstat -tulpn
 ```sh
 find / -size +200M -name "*.log" -exec ls -ltrh {} \;
 ```
+## Generating unique id
+```sh
+cat /proc/sys/kernel/random/uuid
+```
