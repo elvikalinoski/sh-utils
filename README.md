@@ -15,3 +15,7 @@ find / -size +200M -name "*.log" -exec ls -ltrh {} \;
 ```sh
 cat /proc/sys/kernel/random/uuid
 ```
+## Count files
+```sh
+find . -maxdepth 1 -type f | wc -l
+```
