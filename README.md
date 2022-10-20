@@ -19,3 +19,9 @@ cat /proc/sys/kernel/random/uuid
 ```sh
 find . -maxdepth 1 -type f | wc -l
 ```
+
+## Rsync
+### bkp
+rsync -aAXv source destination
+### Restaura bkp
+rsync -qaHAXS source destination
