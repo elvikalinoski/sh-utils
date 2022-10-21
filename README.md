@@ -23,5 +23,7 @@ find . -maxdepth 1 -type f | wc -l
 ## Rsync
 ### bkp
 rsync -aAXv source destination
+### move aquivos entre diretorios *deleta os arquivos do source.
+rsync -avh --progress --remove-source-files demo/* demo1/
 ### Restaura bkp
 rsync -qaHAXS source destination
