@@ -33,8 +33,3 @@ rsync -avh --progress --remove-source-files demo/* demo1/
 ```sh
 rsync -qaHAXS source destination
 ```
-
-# Lista as portas aberta
-```sh
-netstat -tulpn
-```
