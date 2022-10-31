@@ -33,3 +33,6 @@ rsync -avh --progress --remove-source-files demo/* demo1/
 ```sh
 rsync -qaHAXS source destination
 ```
+
+## Bash 1 line
+VAR=$(df -h | grep /mnt/sdb); if [ "$VAR" ]; then echo "true"; else echo "false"; fi
