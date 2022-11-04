@@ -36,3 +36,26 @@ rsync -qaHAXS source destination
 
 ## Bash 1 line
 VAR=$(df -h | grep /mnt/sdb); if [ "$VAR" ]; then echo "true"; else echo "false"; fi
+
+## List file
+```sh
+tree -if --noreport .
+
+ls -m
+ls -d $PWD/*
+ls -R
+ls -g e ls -G
+ls -d */
+ls -lh
+ls -1
+ls -l *.extensao
+ls -s
+ls -ltr
+ls -lt
+ls -t
+ls -a
+ls -l
+```
+
+
+
