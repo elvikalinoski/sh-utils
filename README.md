@@ -58,4 +58,5 @@ ls -l
 ```
 
 
-
+# Gerar senha linux
+https://terminalroot.com.br/2019/12/gerar-senha-linux.html
