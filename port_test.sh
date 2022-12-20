@@ -11,8 +11,8 @@ do
     result1=$?
 
     if [  "$result1" != 0 ]; then
-        echo port: $u server: $SERVER = closed
+        echo -e port: $u server: $SERVER = "\033[31m" closed "\033[m"
     else
-        echo port: $u server: $SERVER = open
+        echo -e port: $u server: $SERVER = "\033[34m" open "\033[m"
     fi
 done
