@@ -62,7 +62,9 @@ ls -l
 https://terminalroot.com.br/2019/12/gerar-senha-linux.html
 
 # Removendo comentários de uma arquivo
+```sh
 grep -v "^#" arquivo.bkp | sed '/^$/d' > arquivo
+```
 
 Explicação:
 O "grep -v "^#" arquivo.bkp" retira as linhas que iniciam com "#";
