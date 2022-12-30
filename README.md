@@ -69,3 +69,26 @@ grep -v "^#" arquivo.bkp | sed '/^$/d' > arquivo
 Explicação:
 O "grep -v "^#" arquivo.bkp" retira as linhas que iniciam com "#";
 sed '/^$/d' apaga as linhas em branco.
+
+
+# Mostra as primeiras linha de um arquivo
+head
+
+# Mostra as ultimas linha de um arquivo
+tail
+
+# Mostra arquivo ao poucos
+less
+
+# Remove diretórios
+rmdir
+
+# Nome da máquina
+hostname
+
+# Lista processos
+ps
+ps aux
+
+# Mostra estrutura de pastas
+lsblk
