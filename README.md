@@ -7,6 +7,12 @@ Repository for storing some useful scripts.
 sudo netstat -tulpn
 ```
 
+## Teste de carga
+```sh
+siege -v -c 200 -i
+https://front.snd.mozaiko.stefanini.io/
+```
+
 ## Find files larger than 200MB
 ```sh
 find / -size +200M -name "*.log" -exec ls -ltrh {} \;
