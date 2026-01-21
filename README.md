@@ -10,7 +10,7 @@ sudo netstat -tulpn
 ## Teste de carga
 ```sh
 siege -v -c 200 -i
-https://front.snd.mozaiko.stefanini.io/
+https://dominio.com/
 ```
 
 ## Find files larger than 200MB
